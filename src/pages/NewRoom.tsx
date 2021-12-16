@@ -37,7 +37,7 @@ export function NewRoom(){
 
     console.log(firebaseRoom);
 
-    history.push(`rooms/${firebaseRoom.key}`);
+    history.push(`/rooms/${firebaseRoom.key}`);
   }
 
   return(
